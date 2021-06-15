@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    width: 100%;/*tamanho da página*/
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/1d/ae/9d/1dae9d6820274a7770dbdb67ff1bb135.png);
+}
+
+main {
+    align-items: center;/*alinhar itens no centro*/
+    display: flex;/*posicao dos elementos na tela sao flexiveis*/
+    height: 100vh;/*altura dos elementos*/
+    justify-content: center;/*justificar o conteudo*/
+    position: relative;/*posicao relativa*/
+}
+
+main > section {
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%); /*filtro efeito blur*/
+    margin-bottom: 50px;
+}
+
+main > section img{
+    background-image: url(https://i.pinimg.com/originals/5b/53/73/5b537363393dc26c68b566fe482eb32d.png);
+    background-size: cover; 
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    
+}
+
+main > section p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#titulo{
+    align-items: center;
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+}
+
